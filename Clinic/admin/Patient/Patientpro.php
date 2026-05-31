@@ -8,7 +8,7 @@ if(!isset($_SESSION['username'])){
 
 $username = $_SESSION['username'];
 
-$con = mysqli_connect("localhost", "root", "", "Cinic");
+$con = mysqli_connect("localhost", "root", "", "clinic");
 if(!$con){
     die("Database Connection Failed: " . mysqli_connect_error());
 }
